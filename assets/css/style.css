@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ---Site Colour Palette ---*/
+:root {
+  --main-bg: #A7A7A9;
+  --main-bg-opaque: rgba(114, 122, 172, 0.90);
+  --bg-grey: #343a40;
+  --links: #4B8EF2;
+  --main-text: #1550B5;
+  --off-white: #fbf9f1;
+  --box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
