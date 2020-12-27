@@ -67,3 +67,112 @@ h6 {
   font-size: 1rem;
 }
 
+/* --- Photo Carousel Settings --- */
+.photo-carousel-gallery {
+  position: relative;
+  height: 100vh;
+}
+
+.img-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/* --- Information Sections Settings --- */
+section {
+  min-height: 100vh;
+  padding: 0px 5px;
+}
+
+.about-container,
+.locations-container,
+.contact-container {
+  background-color: var(--main-bg-opaque);
+  padding: 16px;
+  min-height: 70vh;
+  border-radius: 8px;
+}
+
+.heading-container {
+  padding: 100px 0 0 0;
+}
+
+.heading-container h1 {
+  background-color: var(--main-bg-opaque);
+  border-radius: 8px;
+  padding: 9px;
+  -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* --- About Scotland Section Settings --- */
+.row {
+  --bs-gutter-x: none;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron p {
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 1.25rem;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.btn-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.api-button {
+  display: inline-block;
+  font-size: 0.7rem;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin: 5px;
+}
+
+.countryHeading {
+  margin-bottom: 30px;
+}
+
+.card-text a {
+  color: var(--links);
+}
+
+.container-image {
+  height: auto;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 25px;
+  -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.api-info p {
+  text-align: left;
+}
+
+.country-row {
+  margin-bottom: 50px;
+}
