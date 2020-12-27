@@ -156,6 +156,10 @@ strong {
   margin-bottom: 30px;
 }
 
+.country-name {
+  text-decoration: underline;
+}
+
 .card-text a {
   color: var(--links);
 }
@@ -169,8 +173,9 @@ strong {
   box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
 }
 
-.api-info p {
+.country-info p {
   text-align: left;
+  font-size: 1rem;
 }
 
 .country-row {
