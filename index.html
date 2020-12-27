@@ -106,21 +106,15 @@
                     Welcome!
                 </p>
                 <p class="lead">
-                    This purpose of this site is to showcase the many amazing and stunning locations around Scotland that are a must for photographers of all abilities
+                    This purpose of this site is to showcase the many amazing and stunning locations around Scotland that are a must for landscape photographers of all abilities
                 </p>
                 <p class="lead">
                     Visit ancient castles, windswept beaches, bustling cities, majestic mountains and shimmering lochs for your utimate photography trip
                 </p>
                 <hr class="my-4">
                 <p>
-                    Click on the map below for more information about Scotland
+                    <h1 class="country-heading">SCOTLAND</h1>
                 </p>
-
-                <div class="container">
-
-                    <div class="btn-container row"></div>
-
-                </div>
 
                 <div class="container">
                     <div class="row ">
@@ -132,23 +126,14 @@
                 <div class="container">
                     <div class="row country-row">
                         <div class="col-md-6 flag-container">
-                            <img class="container-image" src="assets/img/africa.png"
+                            <img class="container-image" src="assets/img/scotlandflagmap.png"
                                 alt="Scotland map outline" />
                         </div>
-                        <div class="col-md-6 api-info">
-                            <p><strong>Population:</strong><br><span class="populationText"></span></p>
-                            <p><strong>Capital City:</strong><br><span class="capitalText"></span></p>
-                            <p><strong>Int. Dialling Code:</strong><br><span class="phoneText"></span></p>
-                            <p><strong>Local Currency:</strong><br><span class="currencyText"></span></p>
-                            <p><strong>Time-Zone:</strong><br><span class="timeText"></span></p>
-                            <strong>Official Languages:</strong>
-                                <ul class="langList"></ul>                            
-                            <p class="card-text">
-                                <small class="text-muted">[Info supplied by
-                                    <a href="https://restcountries.eu/" target="_blank">REST Countries API]
-                                    </a>
-                                </small>
-                            </p>
+                        <div class="col-md-6 country-info">
+                            <p><strong>Population: 5,463,000</strong><br><span class="populationText"></span></p>
+                            <p><strong>Capital City: Edinburgh</strong><br><span class="capitalText"></span></p>
+                            <p><strong>Land Area: 77,933 sq km / 30,090 sq miles</strong><br><span class="areaText"></span></p>
+                            <p><strong>Highest Point: Ben Nevis 1,345 metres / 4,413 feet</strong><br><span class="elevationText"></span></p>            
                         </div>
                     </div>
                 </div>
@@ -156,6 +141,64 @@
         </div>
     </section>
 
+<!--Photography Locations Section--> 
+    <section id="photo-locations">
+        <div class="container mt-3 heading-container">
+            <h1>Scotland's Top 12 Landscape Photography Locations</h1>
+        </div>
+        <div class="container mt-3 locations-container">
+            <div class="row">
+                <div class="col-sm-12 about-col">
+                    <!--COUNTRY BUTTONS-->
+                    <div class="dropdown">
+                        <button class="dropdown-main dropdown-toggle" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <span>1. Select a Location</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="locations">
+                            <button class="dropdown-item locations-button" type="button" data-locations="lochlomond">
+                                Loch Lomond
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="thekelpies">
+                                The Kelpies
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="kilchurncastle">
+                                Kilchurn Castle
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="forthbridges">
+                                Firth of Forth Bridges
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="dunnottarcastle">
+                                Dunnottar Castle
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="buchailleetivemor">
+                                Buchaille Etive Mor
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="glenfinnanviaduct">
+                                Glenfinnan Viaduct
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="bowfiddlerock">
+                                Bow Fiddle Rock
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="eileandonancastle">
+                                Eilean Donan Castle
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="skyecuillins">
+                                Skye Cuillins
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="anteallach">
+                                An Teallach
+                            </button>
+                            <button class="dropdown-item locations-button" type="button" data-locations="suilven">
+                                Suilven
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
