@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lato&display=swap');
 
 * {
   margin: 0;
@@ -16,5 +16,54 @@
   --main-text: #1550B5;
   --off-white: #fbf9f1;
   --box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Global Settings ---*/
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: "Barlow", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: var(--main-text);
+  letter-spacing: 1px;
+  background-size: contain;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 h6 {
+  font-family: "Lato", serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h6 {
+  text-transform: capitalize;
+}
+
+/* --- Navigation Bar Settings --- */
+.navbar .navbar-brand {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  color: var(--main-bg);
+}
+
+.navbar .navbar-nav .nav-item .active {
+  color: var(--main-bg);
+}
+
+.nav-link,
+.dropdown-item {
+  font-size: 1rem;
 }
 
