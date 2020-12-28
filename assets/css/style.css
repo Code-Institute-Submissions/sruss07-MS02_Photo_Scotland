@@ -10,8 +10,7 @@
 /* ---Site Colour Palette ---*/
 :root {
   --main-bg: #A7A7A9;
-  --main-bg-opaque: rgba(114, 122, 172, 0.90);
-  --bg-grey: #343a40;
+  --main-bg-opaque: rgb(114, 122, 172, 0.5);
   --links: #4B8EF2;
   --main-text: #1550B5;
   --off-white: #fbf9f1;
@@ -52,6 +51,10 @@ h6 {
 }
 
 /* --- Navigation Bar Settings --- */
+nav {
+    background-color: #1550B5;
+}
+
 .navbar .navbar-brand {
   font-size: 1.8rem;
   letter-spacing: 2px;
@@ -180,4 +183,64 @@ strong {
 
 .country-row {
   margin-bottom: 50px;
+}
+
+
+
+
+/* --- Footer Settings --- */
+footer {
+  height: 2.8rem;
+  background-color: #1550B5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: -1px;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+
+/*--- Social Media icons ---*/
+.social {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0;
+}
+
+.social i {
+  font-size: 1rem;
+  margin: 5px;
+  padding: 5px;
+  color: var(--main-bg);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  -o-transition: transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.copyright a:hover,
+.social i:hover {
+  color: var(--links);
+}
+
+.social i:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
