@@ -1,45 +1,48 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Photo Scotland
 
-Welcome sruss07,
+![Image](assets/img/readme-hero.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[LIVE SITE ON GITHUB PAGES](https://
 
-## Gitpod Reminders
+The purpose of this project is to highlight a selection of the best landscape photography locations in Scotland. Various viewpoints at each locations are also presented. The project can be scaled in the future by adding more locations and associated viewpoints.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Table of Contents
 
-`python3 -m http.server`
+> - [Overview](#overview)
+> - [User Stories](#user-stories)
+> - [UX](#ux)
+> - [Features](#features)
+> - [Technologies Used](#technologies-used)
+> - [References for learning](#references-for-learning)
+> - [Testing](#testing)
+> - [Project barriers and solutions](#project-barriers-and-solutions)
+> - [Code validity](#code-validity)
+> - [Version Control](#version-control)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
+> - [Acknowledgments](#acknowledgments)
+> - [Support](#support)
 
-A blue button should appear to click: *Make Public*,
+![Image](assets/img/responsive.png)
 
-Another blue button should appear to click: *Open Browser*.
+**Please note: To open any links in this document in a new browser tab, please press `CTRL + Click`.**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Overview
 
-A blue button should appear to click: *Make Public*,
+> The purpose of this project is to highlight a selection of the best landscape photography locations in Scotland, and to promote tourism to these areas.
 
-Another blue button should appear to click: *Open Browser*.
+---
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### User Stories
 
-## Updates Since The Instructional Video
+> - _"I do all my online searches on my mobile"_
+> - _"I do all my online searches on my tablet"_
+> - _"I do all my online searches on my laptop or desktop"_
+> - _"I want to know where are the best locations for landscape photography"_
+> - _"I want to be able to join a mailing list about new locations"_
+> - _"I want to make contact to ask questions about locations"_
+> - _"I want to be able to join social media groups to communicate with others"_
+> - _"I am interested in booking a trip and would like more information"_
+> - _"I am interested in reading reviews before booking a trip"_
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+---
