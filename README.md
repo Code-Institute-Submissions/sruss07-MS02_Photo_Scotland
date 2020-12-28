@@ -46,3 +46,28 @@ The purpose of this project is to highlight a selection of the best landscape ph
 > - _"I am interested in reading reviews before booking a trip"_
 
 ---
+
+### UX
+
+The website is targeted at photographers of all abilities. From professionals looking to enhance their portfolios, to experienced amateurs seeking new challenges. From new, inexperienced amateurs deciding on their favourite photography genre, to tourists who enjoy recording their vacations through their photography. The priority of the site is to focus on location information,images and maps and also to enable visitors to subscribe to a mailing list, complete a contact form and join related social media sites.
+
+---
+
+#### 1. Strategy
+
+> The UX is user-friendly with a easy to follow navigation journey which allows the user to reach relevant sections and information with the minimum number of interactions with the site
+>
+> ##### Project Goals:
+>
+> - Showcase 12 of the most stunning landscape photography locations that Scotland has to offer.
+> - Promoting Scotland as a must visit country for outstanding landscape photograpy.
+> - To increse the numbers of visitors interested in visiting Scotland for landscape photography through subscriptions to mailing list and the consequent increase of the customer database.
+> - Social media links to increase user interaction through Facebook, Twitter, Instagram, YouTube and Pinterest.
+>
+> ##### Customer Goals:
+>
+> - The site  has been designed with the Mobile-first approach at the forefront.
+> - Interactive maps for each photography location with associated info panels.
+> - Contact form with an option to sign up for mailing list.
+> - Relevant social media icons in the footer linking to external sites.
+> - Fixed navigation bar providing the site user easy, intuitive navigation links.
