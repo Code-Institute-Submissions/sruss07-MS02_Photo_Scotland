@@ -71,3 +71,9 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - Contact form with an option to sign up for mailing list.
 > - Relevant social media icons in the footer linking to external sites.
 > - Fixed navigation bar providing the site user easy, intuitive navigation links.
+
+### 2. Scope
+
+> - Provides a clean and intuitive UX for users with easy navigation.
+> - The content focuses on images and maps, subscribing to a mailing list and making contact via email and/or social media.
+> - Demonstrates my current ability and knowledge of HTML, CSS, JavaScript and API use.
