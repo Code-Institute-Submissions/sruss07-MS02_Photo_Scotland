@@ -77,3 +77,12 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - Provides a clean and intuitive UX for users with easy navigation.
 > - The content focuses on images and maps, subscribing to a mailing list and making contact via email and/or social media.
 > - Demonstrates my current ability and knowledge of HTML, CSS, JavaScript and API use.
+
+#### 3. Structure
+
+> The structure is designed to allow users to find information relevant to their needs in efficient and easy manner.
+> Location details are presented in short and relevant paragraphs to provide users with the required level of information.
+> The site will utilise a set of high quality images to highlight each photography location.
+> Introduction information for Scotland including population, capital city, other cities, land area, highest point, number of islands and number of lochs.
+> Contact information is provided via email contact form with an optional newsletter subscription.
+> Links to Facebook, Twitter, Instagram, YouTube and Pinterest social media websites in the footer.
