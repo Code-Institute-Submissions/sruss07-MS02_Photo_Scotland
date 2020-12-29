@@ -131,9 +131,56 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 ##### Features Left to Implement
 
-> - A gallery section would be desireable to further enhance to visual aspect of the site.
+> - A gallery section would be desireable to further enhance the visual aspects of the site.
 > - An automatic reply to users who subscribe to the newsletter would be a worthwhile addition.
 > - With further coding knowledge I would like to be able to add a trip booking system to the site.
 > - Scale the site further by adding additional locations.
 
 ---
+
+### Technologies Used
+
+##### 1. Languages
+
+> [HTML5](https://en.wikipedia.org/wiki/HTML5) 
+> * Coding language that is utilised to structure the overall content of the website.
+>
+> [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+> * Coding language that is utilised to style the HTML5 elements in accordance with the font styles, colours and layouts selected.
+>
+> [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+> * Programming language that is utilised to allow client-side script to interact with the user and make pages dynamic.
+
+##### 2. Integration
+
+> [Bootstrap](https://getbootstrap.com/) - by linking via [Bootstrap CDN](https://www.bootstrapcdn.com/) to HTML Doc.
+>
+> [FontAwesome](https://fontawesome.com/) - Icons for Social Media links in Footer.
+>
+> [Google Fonts](https://fonts.google.com/) - Overall Typography import.
+>
+> [jQuery](https://jquery.com/) - JavaScript library
+>
+> [LeafletJS](https://leafletjs.com/) - Interative Maps API
+
+##### 3. Workspace, version control and Repository storage
+
+> [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
+>
+> [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories.
+
+##### 4. Other
+
+> - [Autoprefixer](https://autoprefixer.github.io/) Parses CSS and adds vendor prefixes.
+> - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) Mobile-friendly check on site.
+> - [Website Page Test](https://www.webpagetest.org/) Runs a website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds.
+> - [Online-Spellcheck](https://www.online-spellcheck.com/) Online spelling and grammar checks.
+
+##### 5. IDE Extensions used in GitPod
+
+> - Auto Close Tag
+> - Auto Rename Nametag
+> - Bracket Pair Colorizer
+> - Code Spellchecker
+> - Prettier - Code Formatter
+> - Indent-Rainbow
