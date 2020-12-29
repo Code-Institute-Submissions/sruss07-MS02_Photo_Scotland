@@ -51,8 +51,6 @@ The purpose of this project is to highlight a selection of the best landscape ph
 
 The website is targeted at photographers of all abilities. From professionals looking to enhance their portfolios, to experienced amateurs seeking new challenges. From new, inexperienced amateurs deciding on their favourite photography genre, to tourists who enjoy recording their vacations through their photography. The priority of the site is to focus on location information,images and maps and also to enable visitors to subscribe to a mailing list, complete a contact form and join related social media sites.
 
----
-
 #### 1. Strategy
 
 > The UX is user-friendly with a easy to follow navigation journey which allows the user to reach relevant sections and information with the minimum number of interactions with the site
@@ -72,7 +70,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - Relevant social media icons in the footer linking to external sites.
 > - Fixed navigation bar providing the site user easy, intuitive navigation links.
 
-### 2. Scope
+#### 2. Scope
 
 > - Provides a clean and intuitive UX for users with easy navigation.
 > - The content focuses on images and maps, subscribing to a mailing list and making contact via email and/or social media.
@@ -95,8 +93,6 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - Home, About Scotland, Locations and Contact sections
 > - Footer with social media icon links to Facebook, Twitter, Instagram, YouTube and Pinterest.
 
----
-
 #### 5. Surface
 
 > ###### Colours
@@ -118,5 +114,26 @@ The website is targeted at photographers of all abilities. From professionals lo
 >
 > Interactive maps with smooth zoom transitions to each location.
 > Additional location information on map markers in the form of info panels.
+
+---
+
+### Features
+
+##### Existing Features
+
+> - The website was designed with HTML5, CSS3, JavaScript and Bootstrap.
+> - Home/Landing page with scrolling capability between the 4 sections contained within the site..
+> - The fixed navigation bar enables the user to easily navigate between each of the 4 sections.
+> - The "About Scotland" section outlines the project objectives and provides the user with general information about Scotland.
+> - The "Locations" section with links and interactive maps which zoom to each location. Markers on maps with information panels on markers.
+> - Footer with social media links to Facebook, Twitter, Instagram, YouTube and Pinterest.
+> - Contact Form with radio buttons to allow users to contact with enquiries and subscribe to newsletter.
+
+##### Features Left to Implement
+
+> - A gallery section would be desireable to further enhance to visual aspect of the site.
+> - An automatic reply to users who subscribe to the newsletter would be a worthwhile addition.
+> - With further coding knowledge I would like to be able to add a trip booking system to the site.
+> - Scale the site further by adding additional locations.
 
 ---
