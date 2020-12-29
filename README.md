@@ -85,4 +85,38 @@ The website is targeted at photographers of all abilities. From professionals lo
 > The site will utilise a set of high quality images to highlight each photography location.
 > Introduction information for Scotland including population, capital city, other cities, land area, highest point, number of islands and number of lochs.
 > Contact information is provided via email contact form with an optional newsletter subscription.
-> Links to Facebook, Twitter, Instagram, YouTube and Pinterest social media websites in the footer.
+> Links to Facebook, Twitter, Instagram, YouTube and Pinterest social media websites in the fßooter.
+
+#### 4. Skeleton
+
+> - [Wireframes]: One-page website with **4** main sections.
+> - Fixed navigation bar with link headings pointing to each of the 4 section.
+> - Fixed navigation bar links headings collapse to menu icon on smaller screen sizes.
+> - Home, About Scotland, Locations and Contact sections
+> - Footer with social media icon links to Facebook, Twitter, Instagram, YouTube and Pinterest.
+
+---
+
+#### 5. Surface
+
+> ###### Colours
+>
+> The site colours have been chosen to represent colours which are commonly associated with Scotland. The dark blue from the saltire flag, the lighte blue from Scotland's numerous lochs, purple from the heather clad glens and silver from the granite mountains. 
+>
+> ![Image](assets/img/.png)
+
+> ###### Typography
+>
+> - "Barlow" font (with fall-back font of Serif) for main headings. This font was chosen for it's clean, modern appearance.
+> - "Lato" font (with fall-back font of Sans-Serif) for the remaining site content. This font was chosen as it compliments the "Barlow" font and completes the overall appearance of the site.
+
+> ###### Images
+>
+> The images have been selected to convey and showcase the amazing beauty of each location described on the website.
+
+> ###### Maps
+>
+> Interactive maps with smooth zoom transitions to each location.
+> Additional location information on map markers in the form of info panels.
+
+---
