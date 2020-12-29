@@ -58,11 +58,11 @@ nav {
 .navbar .navbar-brand {
   font-size: 1.8rem;
   letter-spacing: 2px;
-  color: var(--main-bg);
+  color: #A7A7A9;
 }
 
 .navbar .navbar-nav .nav-item .active {
-  color: var(--main-bg);
+  color: #A7A7A9;
 }
 
 .nav-link,
@@ -190,7 +190,7 @@ strong {
 
 /* --- Footer Settings --- */
 footer {
-  height: 2.8rem;
+  height: 4rem;
   background-color: #1550B5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,7 +205,7 @@ footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 
 
@@ -217,13 +217,13 @@ footer {
   display: flex;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
   margin: 0;
 }
 
 .social i {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 5px;
   padding: 5px;
   color: var(--main-bg);
@@ -232,11 +232,6 @@ footer {
   -o-transition: transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
-}
-
-.copyright a:hover,
-.social i:hover {
-  color: var(--links);
 }
 
 .social i:hover {
