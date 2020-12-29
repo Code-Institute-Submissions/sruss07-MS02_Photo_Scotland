@@ -185,6 +185,35 @@ strong {
   margin-bottom: 50px;
 }
 
+/* --- Contact Us Settings--- */
+#contactForm {
+  width: 100%;
+  margin: 35px auto;
+}
+
+.contact-container {
+  background-color: var(--main-bg-opaque);
+  background-size: cover;
+}
+
+label,
+.subscribe-text {
+  margin: 10px 5px 5px;
+}
+
+.radio-btn input,
+.radio-btn label {
+  margin: 10px 0 0 0;
+}
+
+.btn-secondary {
+  background-color: #1550B5;
+}
+
+#submit-btn {
+  margin-top: 15px;
+  width: 100px;
+}
 
 
 
