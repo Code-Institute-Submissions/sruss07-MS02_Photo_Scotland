@@ -31,3 +31,10 @@ $(document).ready(function () {
   }, 7000);
 });
 
+
+window.onclick = function (e) {
+  let dropDown = document.getElementById("navbarResponsive");
+  if (dropDown.classList.contains("show")) {
+    dropDown.classList.remove("show");
+  }
+};
