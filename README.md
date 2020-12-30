@@ -230,3 +230,19 @@ The website is targeted at photographers of all abilities. From professionals lo
 > -  Git was used for version control.
 
 ---
+
+### Deploying My Project 
+
+> I created my Milestone Project 1 on GitHub and used GitPod's development environment to write my HTML, CSS and Javascript code.
+
+> All code was written on Gitpod. The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/sruss07/MS02_Photo_Scotland).
+
+> So that my project was viewable to others it was then deployed to GitHub Pages using the following process:
+
+> 1. Opened the 'Settings' section of the project repository in GitHub.
+> 2. Scrolled to the 'GitHub Pages' section.
+> 3. Selected 'master branch' as the Source.
+> 4. This deployed the project on GitHub Pages and thus enabled me to share the live website with others. 
+
+> My live project can be viewed by folowing this link: [Photo Scotland]()
+
