@@ -4,7 +4,7 @@
 
 [LIVE SITE ON GITHUB PAGES](https://
 
-The purpose of this project is to highlight a selection of the best landscape photography locations in Scotland. Various viewpoints at each locations are also presented. The project can be scaled in the future by adding more locations and associated viewpoints.
+The purpose of this project is to highlight a selection of the best landscape photography locations in Scotland. The project can be scaled in the future by adding more locations and associated viewpoints.
 
 ### Table of Contents
 
@@ -135,6 +135,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - An automatic reply to users who subscribe to the newsletter would be a worthwhile addition.
 > - With further coding knowledge I would like to be able to add a trip booking system to the site.
 > - Scale the site further by adding additional locations.
+> - Scale the site further by adding multiple viewpoints at each location.
 
 ---
 
