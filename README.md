@@ -247,3 +247,38 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 > My live project can be viewed by folowing this link: [Photo Scotland]()
 
+### Credits
+
+> ##### Media
+>
+> - Intro carousel images from [Unsplash](https://unsplash.com/) and [Pexels] (hhtps://pexels.com/)
+> - Scotland Map image from [Pintrest]()
+
+> ##### Content
+>
+> - Tim Nelsons's extensive documentation on LeafletJS Maps from his MS2 project
+>
+> ##### Bootstrap 4 CDN Boilerplate
+>
+> - I've taken advantage of _Simen Daehlin's_ template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet)
+>
+> ##### Code Snippets
+>
+> - CSS: Main Country and Reserve Button styling adapted from [Button Generator](https://www.bestcssbuttongenerator.com/#/11*)
+> - Dropdown buttons adapted from [Bootstrap](https://getbootstrap.com/docs/4.0/components/dropdowns/)
+> - Navigation bar adapted from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
+> - Smooth scrolling (using Jquery) from [W3SCHOOLS](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
+> - Tim Nelson - Showing only map tiles for Africa (avoid loading world map)
+> - HTML, CSS & JavaScript: Intro carousel & transition function from [CSS Tricks](https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/)
+> - JavaScript: find by location in array of objects [Stack Overflow](https://stackoverflow.com/a/35398031/13484385*/)
+> - iframe element 'stop on click' function help from John Traas (CI student) and final solution (due to stopVideo method no longer working on iframes) from [Stack Overflow](https://stackoverflow.com/a/30358006/14197670)
+
+---
+
+> ##### Acknowledgments
+>
+> I would like to thank:
+>
+> - My mentor, **Gerry McBride** for his guidance and advice on this project before submission.
+> - **CI staff** and **Slack Community** for always being on-hand with questions posted and assistance requests.
+> - Everyone that takes part in the Slack calls, specifically from the **#In-It-Together** and **#Study-Group** channels.
