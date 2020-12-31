@@ -4,7 +4,7 @@
 
 [LIVE SITE ON GITHUB PAGES](https://
 
-The purpose of this project is to highlight a selection of the best landscape photography locations in Scotland. Various viewpoints at each locations are also presented. The project can be scaled in the future by adding more locations and associated viewpoints.
+The purpose of this project is to highlight a selection of the best landscape photography locations in Scotland. The project can be scaled in the future by adding more locations and associated viewpoints.
 
 ### Table of Contents
 
@@ -135,6 +135,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - An automatic reply to users who subscribe to the newsletter would be a worthwhile addition.
 > - With further coding knowledge I would like to be able to add a trip booking system to the site.
 > - Scale the site further by adding additional locations.
+> - Scale the site further by adding multiple viewpoints at each location.
 
 ---
 
@@ -155,9 +156,9 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 > [Bootstrap](https://getbootstrap.com/) - by linking via [Bootstrap CDN](https://www.bootstrapcdn.com/) to HTML Doc.
 >
-> [FontAwesome](https://fontawesome.com/) - Icons for Social Media links in Footer.
+> [FontAwesome](https://fontawesome.com/) - Source of icons for Social Media links in Footer.
 >
-> [Google Fonts](https://fonts.google.com/) - Overall Typography import.
+> [Google Fonts](https://fonts.google.com/) - Source for overall Typography imports.
 >
 > [jQuery](https://jquery.com/) - JavaScript library
 >
@@ -165,9 +166,9 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 ##### 3. Workspace, version control and Repository storage
 
-> [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
+> [Git](https://git-scm.com/) - Version Control tool to store versions of files and track changes.
 >
-> [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories.
+> [GitHub](https://github.com/) - Hosting service to manage my **Git** repositories.
 
 ##### 4. Other
 
@@ -184,3 +185,65 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - Code Spellchecker
 > - Prettier - Code Formatter
 > - Indent-Rainbow
+
+---
+
+### Resources
+
+> - [Code Institute Course Content](https://courses.codeinstitute.net/) - Main source of HTML, CSS and Javascript fundamental knowledge.
+> - Code Institute **SLACK Community** - Main source of assistance
+> - [Stack Overflow](https://stackoverflow.com/) - General resource.
+> - [Youtube](https://www.youtube.com/) - General resource.
+> - [CSS-Tricks](https://css-tricks.com/) - General resource.
+> - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
+> - [CommonMark](https://commonmark.org/help/) - Markdown language reference.
+> - [iColorpalette](https://icolorpalette.com/imagepalette/color-palette-ideas-from-car-motor-vehicle-image-11) - Find relevant color palette for site.
+> - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site.
+> - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
+> - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
+> - [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - An invaluable resource for understanding Grid layouts.
+> - [Tim Nelson's Github for LeafletJS](https://github.com/TravelTimN/ci-ifd-lead/tree/master/week4-leafletjs)
+
+---
+
+### Testing
+
+> Testing documentation can be found on a separate document [HERE]
+
+### Project barriers and solutions
+
+---
+
+### Code Validity
+
+> HTML - [W3C](https://validator.w3.org/) - Markup Validation
+>
+> CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+>
+> JavaScript - [JSHINT](https://jshint.com/) - JavaScript code warning & error check
+>
+> TAGS - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opened and closed correctly.
+
+---
+
+### Version Control
+
+> -  Git was used for version control.
+
+---
+
+### Deploying My Project 
+
+> I created my Milestone Project 1 on GitHub and used GitPod's development environment to write my HTML, CSS and Javascript code.
+
+> All code was written on Gitpod. The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/sruss07/MS02_Photo_Scotland).
+
+> So that my project was viewable to others it was then deployed to GitHub Pages using the following process:
+
+> 1. Opened the 'Settings' section of the project repository in GitHub.
+> 2. Scrolled to the 'GitHub Pages' section.
+> 3. Selected 'master branch' as the Source.
+> 4. This deployed the project on GitHub Pages and thus enabled me to share the live website with others. 
+
+> My live project can be viewed by folowing this link: [Photo Scotland]()
+
