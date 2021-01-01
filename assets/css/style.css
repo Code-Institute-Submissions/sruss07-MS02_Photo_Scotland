@@ -179,7 +179,7 @@ strong {
   left: 0;
   z-index: 1;
   display: none;
-  background-color:#1550B5;
+  background-color: rgb(114, 122, 172, 0.2);
   width: 95%;
   padding: 0.5rem 0;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -218,8 +218,8 @@ strong {
   font-family: "Barlow", sans-serif;
   color:  #A7A7A9;
   text-decoration: none;
-  background: -o-linear-gradient(top, #1550B5);
-  background: linear-gradient(to bottom, #1550B5);
+  background: -o-linear-gradient(top, #4B8EF2);
+  background: linear-gradient(to bottom, #4B8EF2);
   background-color: #1550B5;
   border-radius: 3px;
   border: 1px solid #1550B5;
@@ -237,7 +237,7 @@ strong {
 .dropdown-main:focus,
 .dropdown-item:focus,
 .api-button:focus {
-  outline: 5px auto orange;
+  outline: 5px auto #1550B5;
 }
 
 .dropdown-item {
