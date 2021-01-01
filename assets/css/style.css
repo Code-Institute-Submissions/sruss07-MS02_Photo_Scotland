@@ -236,10 +236,6 @@ strong {
   width: 250px;
 }
 
-.dropdown-reserve {
-  width: 100%;
-}
-
 .countryHeading {
   margin-bottom: 30px;
 }
@@ -264,6 +260,37 @@ strong {
 
 .country-row {
   margin-bottom: 50px;
+}
+
+/* --- Locations Section Settings --- */
+.maprow {
+  width: 95%;
+  margin: 30px auto;
+}
+
+.map-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+}
+
+.locations-section a {
+  color: var(--links);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.locations-section a,
+.locations-section p {
+  text-align: justify;
+}
+
+.country-content {
+  height: 100%;
 }
 
 /* --- Contact Us Settings--- */
