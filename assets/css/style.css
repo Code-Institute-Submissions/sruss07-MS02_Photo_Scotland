@@ -147,7 +147,7 @@ strong {
   margin-bottom: 20px;
 }
 
-.area-button {
+.location-button {
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
 	background-color: #1550B5;
 	border-radius: 3px;
@@ -161,11 +161,11 @@ strong {
     text-shadow:0px 1px 0px #154682;
 }
 
-.area-button:hover {
+.location-button:hover {
 	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
 	background-color:#0061a7;
 }
-.area-button:active {
+.location-button:active {
 	position:relative;
 	top:1px;
 }
