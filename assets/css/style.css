@@ -52,7 +52,7 @@ h6 {
 
 /* --- Navigation Bar Settings --- */
 nav {
-    background-color: #1550B5;
+  background-color: #1550B5;
 }
 
 .navbar .navbar-brand {
@@ -99,12 +99,12 @@ section {
 }
 
 .about-container,
-.locations-container,
+.area-container,
 .contact-container {
   background-color: var(--main-bg-opaque);
   padding: 16px;
   min-height: 70vh;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .heading-container {
@@ -113,7 +113,7 @@ section {
 
 .heading-container h1 {
   background-color: var(--main-bg-opaque);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 9px;
   -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
@@ -141,26 +141,115 @@ strong {
   font-weight: bold;
 }
 
+/*--Buttons--*/
 .btn-container {
   text-align: center;
   margin-bottom: 20px;
 }
 
+.area-button {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background-color: #1550B5;
+	border-radius: 3px;
+	display:inline-block;
+	cursor:pointer;
+	color: #A7A7A9;
+	font-family: Barlow;
+	font-size: 1.2rem;
+	padding: 6px 24px;
+	text-decoration: none;
+    text-shadow:0px 1px 0px #154682;
+}
+
+.area-button:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.area-button:active {
+	position:relative;
+	top:1px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  -webkit-transform: translate3d(5px, 29px, 0px);
+  transform: translate3d(5px, 29px, 0px);
+  will-change: transform;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+  background-color:#1550B5;
+  width: 95%;
+  padding: 0.5rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.reserve-menu {
+  width: 100%;
+}
+
+.reserve-button {
+  width: 200px;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+.dropdown-main span {
+  font-size: 1.2rem;
+}
+
+.dropdown-item,
+.dropdown-main {
+  display: block;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 95%;
+  margin: 12px auto;
+  padding: 0.25rem 1rem;
+}
+
+.dropdown-item,
+.dropdown-main,
 .api-button {
-  display: inline-block;
-  font-size: 0.7rem;
-  width: 100px;
-  height: 30px;
-  line-height: 30px;
-  margin: 5px;
+  font-family: "Barlow", sans-serif;
+  color:  #A7A7A9;
+  text-decoration: none;
+  background: -o-linear-gradient(top, #1550B5);
+  background: linear-gradient(to bottom, #1550B5);
+  background-color: #1550B5;
+  border-radius: 3px;
+  border: 1px solid #1550B5;
+  cursor: pointer;
+  -webkit-box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
+}
+
+.dropdown-main:hover,
+.dropdown-item:hover,
+.api-button:hover {
+  color: #A7A7A9;
+}
+
+.dropdown-main:focus,
+.dropdown-item:focus,
+.api-button:focus {
+  outline: 5px auto orange;
+}
+
+.dropdown-item {
+  width: 250px;
+}
+
+.dropdown-reserve {
+  width: 100%;
 }
 
 .countryHeading {
   margin-bottom: 30px;
-}
-
-.country-name {
-  text-decoration: underline;
 }
 
 .card-text a {
@@ -214,8 +303,6 @@ label,
   margin-top: 15px;
   width: 100px;
 }
-
-
 
 /* --- Footer Settings --- */
 footer {
