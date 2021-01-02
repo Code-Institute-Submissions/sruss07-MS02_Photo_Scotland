@@ -99,7 +99,7 @@ section {
 }
 
 .about-container,
-.area-container,
+.location-container,
 .contact-container {
   background-color: var(--main-bg-opaque);
   padding: 16px;
@@ -236,10 +236,6 @@ strong {
   width: 250px;
 }
 
-.countryHeading {
-  margin-bottom: 30px;
-}
-
 .card-text a {
   color: var(--links);
 }
@@ -251,15 +247,6 @@ strong {
   margin-bottom: 25px;
   -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
-}
-
-.country-info p {
-  text-align: left;
-  font-size: 1rem;
-}
-
-.country-row {
-  margin-bottom: 50px;
 }
 
 /* --- Locations Section Settings --- */
@@ -277,15 +264,15 @@ strong {
   justify-content: end;
 }
 
-.locations-section a {
+.location-section a {
   color: var(--links);
   text-decoration: none;
   text-transform: capitalize;
   font-weight: bold;
 }
 
-.locations-section a,
-.locations-section p {
+.location-section a,
+.location-section p {
   text-align: justify;
 }
 
