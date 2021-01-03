@@ -3,6 +3,7 @@ const localityButton = document.getElementsByClassName("locality-button");
     for (let i = 0; i < localityButton.length; i++) {
     localityButton[i].addEventListener("click", handleLocalitySelect);
 }
+
 function handleLocalitySelect(e) {
     const localityBtn = e.target.dataset.locality;
     const localitySelection = document.getElementsByClassName("locality-section");
