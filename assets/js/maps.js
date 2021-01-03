@@ -1,46 +1,25 @@
-// Function to HIDE/SHOW country info with buttons
-const locationButton = document.getElementsByClassName("location-button");
-for (let i = 0; i < locationButton.length; i++) {
-  locationButton[i].addEventListener("click", handleLocationSelect);
-}
-function handleLocationSelect(e) {
-  const locationBtn = e.target.dataset.location;
-  const locationSelection = document.getElementsByClassName("location-section");
-  for (let i = 0; i < locationSelection.length; i++) {
-    const sectionID = locationSelection[i].id;
-    if (sectionID === locationBtn) {
-      locationSelection[i].classList.remove("hidden");
-    } else {
-      locationSelection[i].classList.add("hidden");
-    }
-  }
-  handleLocationReset("location-0");
-  // Click button to show map-country based on the innerText
-  changeMapLocation(e.target.innerText);
-}
-
 // Function to HIDE/SHOW Location info with buttons
-const locationButton = document.getElementsByClassName("location-button");
-for (let i = 0; i < locationButton.length; i++) {
-  locationButton[i].addEventListener("click", handleLocationSelect);
+const localityButton = document.getElementsByClassName("locality-button");
+for (let i = 0; i < localityButton.length; i++) {
+  localityButton[i].addEventListener("click", handleLocalitySelect);
 }
-function handleLocationSelect(e) {
-  const locationBtn = e.target.dataset.location;
-  const locationSelection = document.getElementsByClassName("location-section");
-  for (let i = 0; i < locationSelection.length; i++) {
-    const locationID = locationSelection[i].id;
-    if (locationID === locationBtn) {
-      locationSelection[i].classList.remove("hidden");
+function handleLocalitySelect(e) {
+  const localityBtn = e.target.dataset.locality;
+  const localitySelection = document.getElementsByClassName("locality-section");
+  for (let i = 0; i < localitySelection.length; i++) {
+    const localityID = localitySelection[i].id;
+    if (localityID === localityBtn) {
+      localitySelection[i].classList.remove("hidden");
     } else {
-      locationSelection[i].classList.add("hidden");
+      localitySelection[i].classList.add("hidden");
     }
   }
   changeMapLocation(e.target.innerText); // click button to show map-country based on the innerText
 }
 
 // Function to RESET RESERVE info
-function handleReserveReset(reserve) {
-  const reserveBtn = reserve;
+function handleLocationReset(location) {
+  const locationBtn = location;
   const reserveSelection = document.getElementsByClassName("reserve-section");
   for (let i = 0; i < reserveSelection.length; i++) {
     const reserveID = reserveSelection[i].id;

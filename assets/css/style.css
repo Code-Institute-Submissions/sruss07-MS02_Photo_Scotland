@@ -99,7 +99,7 @@ section {
 }
 
 .about-container,
-.location-container,
+.locality-container,
 .contact-container {
     background-color: var(--main-bg-opaque);
     padding: 16px;
@@ -147,7 +147,7 @@ strong {
     margin-bottom: 20px;
 }
 
-.location-button {
+.locality-button {
 	box-shadow:inset 0px 1px 0px 0px #54a3f7;
 	background-color: #1550B5;
 	border-radius: 3px;
@@ -161,11 +161,11 @@ strong {
     text-shadow:0px 1px 0px #154682;
 }
 
-.location-button:hover {
+.locality-button:hover {
 	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
 	background-color:#0061a7;
 }
-.location-button:active {
+.locality-button:active {
 	position:relative;
 	top:1px;
 }
@@ -264,7 +264,7 @@ strong {
 
 /* --- Locations Map Settings --- */
 #map,
-.location-placeholder img {
+.locality-placeholder img {
     height: 250px;
     width: 300px;
     margin: 25px auto;
@@ -278,7 +278,7 @@ strong {
     border: 2px solid tan;
 }
 
-.location-placeholder {
+.locality-placeholder {
     text-align: center;
 }
 
@@ -303,15 +303,15 @@ strong {
     justify-content: end;
 }
 
-.location-section a {
+.locality-section a {
     color: var(--links);
     text-decoration: none;
     text-transform: capitalize;
     font-weight: bold;
 }
 
-.location-section a,
-.location-section p {
+.locality-section a,
+.locality-section p {
     text-align: justify;
 }
 
