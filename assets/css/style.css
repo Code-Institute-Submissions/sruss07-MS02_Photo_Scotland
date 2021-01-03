@@ -264,7 +264,7 @@ strong {
 
 /* --- Locations Map Settings --- */
 #map,
-    .location-placeholder img {
+.location-placeholder img {
     height: 250px;
     width: 300px;
     margin: 25px auto;
@@ -400,3 +400,4 @@ footer {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
+
