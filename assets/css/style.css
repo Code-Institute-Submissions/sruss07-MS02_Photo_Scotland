@@ -396,3 +396,104 @@ footer {
     transform: scale(1.2);
 }
 
+/*--- Media Queries ---*/
+@media only screen and (min-width: 375px) {
+    #map,
+    .locality-placeholder img {
+    height: 300px;
+    width: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .btn-container {
+    margin-bottom: 45px;
+    }
+    .container-image {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    }
+    .card-text {
+    font-size: 0.9rem;
+    }
+    .country-info {
+    padding: 5px 20px;
+    }
+    body {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    }
+    .dropdown {
+    margin: auto;
+    }
+    .img-contain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 10px 0;
+    }
+    #contactForm {
+    width: 75%;
+    margin: 50px auto;
+    }
+    footer {
+    height: 3.2rem;
+    }
+    .footer-img {
+    margin-bottom: -15px;
+    }
+    .social li {
+    margin: 0px 10px;
+    }
+    .social i {
+    font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #map,
+    .locality-placeholder img {
+    height: 400px;
+    width: 400px;
+    }
+    .img-contain img {
+    margin-right: auto;
+    }
+    .social li {
+    margin: 0px 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    form {
+    padding: 40px 120px;
+    }
+    .social i {
+    font-size: 1.9rem;
+    }
+    .footer-container {
+    padding-bottom: 1.3rem;
+    }
+    .footer-img {
+    margin-top: -50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #map,
+    .locality-placeholder img {
+    height: 450px;
+    width: 450px;
+    }
+    .footer-img {
+    margin-top: -85px;
+    margin-bottom: -50px;
+    }
+    .social li {
+    margin: 0 20px;
+    }
+}
