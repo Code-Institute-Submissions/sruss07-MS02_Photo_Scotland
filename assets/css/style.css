@@ -172,15 +172,12 @@ strong {
 
 .dropdown-menu {
     position: absolute;
-    -webkit-transform: translate3d(5px, 29px, 0px);
-    transform: translate3d(5px, 29px, 0px);
-    will-change: transform;
     top: 100%;
     left: 0;
     z-index: 1;
     display: none;
     background-color: rgb(114, 122, 172);
-    width: 95%;
+    width: 100%;
     padding: 0.5rem 0;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
