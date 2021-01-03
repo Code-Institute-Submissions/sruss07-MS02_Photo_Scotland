@@ -257,7 +257,6 @@ strong {
 }
 
 /* --- Locations Map Settings --- */
-#map,
 .locality-placeholder img {
     height: 250px;
     width: 300px;
@@ -269,7 +268,9 @@ strong {
 #map {
     -webkit-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
-    border: 2px solid tan;
+    border: 2px solid red;
+    height: 180px;
+    width: 100%;
 }
 
 .locality-placeholder {
@@ -281,6 +282,8 @@ strong {
 }
 
 /* --- Locations Section Settings --- */
+
+
 .maprow {
     width: 95%;
     margin: 30px auto;

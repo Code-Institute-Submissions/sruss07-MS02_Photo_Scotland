@@ -31,24 +31,33 @@ function handleLocalityReset(locality) {
 }
 
 let mapTileLayers = L.tileLayer(
-);
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", 
+    { attribution: "Powered by Esri" }
+  );
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiYWJ6MTkwMyIsImEiOiJja2poMmE3a2Iwdm02MnhvN2p6MzNoOGVqIn0.zq4kBKs3AUwpcm6kdEQhug'
-}).addTo(mymap);
+  let map = L.map("map", {
+    layers: [mapTileLayers], // variable from above
+    center: [2, 55], // central lat-lng once loaded
+    zoom: 2, // smaller numbers = zoomOut // larger numbers = zoomIn
+    minZoom: 3, // max zoomOut permitted
+    maxZoom: 20, // max zoomIn permitted
+    maxBounds: [
+      // stops map from infinite scrolling at edges
+      [20, 65], //north east boundary
+      [-20, 25], //south west boundary
+    ],
+  });
+  
+
 
 // Settings for location maps
 // Change map location
-let pinMarker = {};  
-    function changeMapLocation(location) {
+let pinMarker = {}; 
+
+function changeMapLocation(location) {
     const newMapLocation = mapLocations.find(
         (name) => name.location === location
-    )};
+    );
 
 // Set map location, centre and zoom
     map.flyTo(newMapLocation.center, newMapLocation.zoom);
@@ -72,6 +81,7 @@ let pinMarker = {};
     } else {
         map.removeLayer(pinMarker);
     }
+}
 
 // Arrays for Scotland map
     const mapLocations = [
@@ -82,7 +92,7 @@ let pinMarker = {};
     }]
 
 // Arrays for locations
-    const mapLocations = [
+    const photoLocations = [
     {
     location: "Loch Lomond",
     center: [56.083333, -4.566667], 
@@ -155,4 +165,5 @@ let pinMarker = {};
     zoom: 7.5,
     pin: [58.115, -5.13707],
     },
-]}
+]
+}
