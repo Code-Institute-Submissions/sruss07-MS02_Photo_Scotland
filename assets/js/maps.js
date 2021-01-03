@@ -33,22 +33,14 @@ function handleLocalityReset(locality) {
 let mapTileLayers = L.tileLayer(
     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", 
     { attribution: "Powered by Esri" }
-  );
+    );
 
-  let map = L.map("map", {
-    layers: [mapTileLayers], // variable from above
-    center: [2, 55], // central lat-lng once loaded
-    zoom: 2, // smaller numbers = zoomOut // larger numbers = zoomIn
-    minZoom: 3, // max zoomOut permitted
-    maxZoom: 20, // max zoomIn permitted
-    maxBounds: [
-      // stops map from infinite scrolling at edges
-      [20, 65], //north east boundary
-      [-20, 25], //south west boundary
-    ],
-  });
-  
-
+    let map = L.map("map", {
+    layers: [mapTileLayers], 
+    center: [57, -3], 
+    zoom: 5, 
+    minZoom: 3, 
+    });
 
 // Settings for location maps
 // Change map location
@@ -83,7 +75,7 @@ function changeMapLocation(location) {
     }
 }
 
-// Arrays for Scotland map
+// Array for Scotland map
     const mapLocations = [
     {
     location: "Scotland",
