@@ -11,14 +11,15 @@
 >
 >  * General
 >    * Tested all variables by logging them to the console after each instance.
-
->    * Received warnings in console for 'Same-Site cookies'. Researched online and discussed with mentor. These are apparently server-side issues and beyond the scope of the project. To be dealt with once skills develop.
+>    * Errors were found with maps functioning correctly. These errors were fixed accordingly with maps now functioning as planned.
 >
 > * Navigation & Intro
->   * Clicked on all navbar links to ensure smooth scrolling is consistent top to bottom, to each section and bottom to top.
->   * Tested links from mobile view Hamburger menu icon, and menu closes when clicking on one of the menu items, as desired.
->   * Checked transitions of slides to desired image change time and fade time.
-> * About section
+>   * Navigation Bar navbar links. All navbar links were clicked to ensure smooth scrolling to the relevant section of the website. Scrolling was consistently smooth to and between each section and from top to bottom and from bottom to top.
+>   * Hambuger menu on mobile devices. Checked that the navbar menu links of Home, About Scotland, Locations and Contact were clickable in the dropdown menu. All links performed as desired, with the menu closing upon clicking the navbar link.
+>   * Carousel image gallery. Checked to ensure a smooth transition between each image. Checked file names and a code and ensured images loaded in a timely manner.
+
+
+
 >   * Clicked each country button and relevant API info (country info and flag) replaces the placeholder image and text as expected.
 > * Game Reserve section
 >    * Clicked "1. Select a Country" button and dropdown list of country buttons appears as expected.
@@ -29,8 +30,8 @@
 >    * Started webcam feed for each country and ensured that it stopped/reset on button clicks from all other buttons and selections, except for the reserve buttons. This was specifically chosen to keep playing whilst looking at reserves in the same country.
 >    * Clicked all markers in the map (for each reserve in each country) and all display relevant information expected.
 >     * Further to above, each website URL on marker info opens in a new tab in the browser as expected.
->     * ~~iframes on small mobile view in the Safari browser seem to come out of the container. Reduced size of max-width of all iframes to 95%. Update: this has not corrected the issue. Further research indicated that this is a known issue with iframes and Safari [SEE HERE](https://stackoverflow.com/questions/23083462/how-to-get-an-iframe-to-be-responsive-in-ios-safari). Have logged as unsolved bug and documented in the Readme.md file under [Project barriers](https://github.com/JimLynx/CI-MS2-Safari-Africa#project-barriers-and-solutions).~~ RESOLVED by creating a branch and testing alternate layouts with CSS. Removed align class from iframes and gave each dedicated height/width.
->  * Contact section
+
+>  * Contact Section
 >    * Tested completed form submission and modal appears confirming email has been sent.
 >    * Confirmed that form resets to blank fields after form submission has been completed.
 >  * Passed all code through [JSHINT](https://jshint.com/) and the following were rectified as a result. 
