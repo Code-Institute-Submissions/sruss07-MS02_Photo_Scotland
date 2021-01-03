@@ -202,13 +202,10 @@ strong {
 }
 
 .dropdown-item,
-.dropdown-main,
-.api-button {
+.dropdown-main {
     font-family: "Barlow", sans-serif;
     color:  #A7A7A9;
     text-decoration: none;
-    background: -o-linear-gradient(top, #4B8EF2);
-    background: linear-gradient(to bottom, #4B8EF2);
     background-color: #1550B5;
     border-radius: 3px;
     border: 1px solid #1550B5;

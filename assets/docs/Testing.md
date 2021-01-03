@@ -1,10 +1,7 @@
 > ### HTML
 >
 >   * Ran HTML code through [HTML Validator](https://validator.w3.org/) 
->   * Received error messages for p-tags inside iframes not being permitted. Removed the paragraph and text as iframes are supported in all browsers. Added Title to each iframe with description for screen-reader accessibility.
->   * Warning for Intro section lacking heading. As this is an image gallery, no heading is required.  
->   * Warning for "empty heading" for the About section. The H3 tag with class of "countryHeading" pulls in the relevant heading from the REST country API so this can be ignored.
->   * Two warnings for "The type attribute is unnecessary for JavaScript resources". Deleted both instances after researching correct measures.
+>   * Received error messages for no p element in scope but a p end tag seen. Error does not seem to cause any visible issues.
 >
 > ### CSS
 > * Ran CSS code through [CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -14,8 +11,9 @@
 >
 >  * General
 >    * Tested all variables by logging them to the console after each instance.
->    * Site loaded in Opera web browser shows errors in console "Failed to load resource: net::ERR_FAILED". I researched this and turns out to be the JavaScript code inside the Youtube iframes. Ref: [Stack Overflow](https://stackoverflow.com/a/27453371/14197670). It seems that this can be ignored.
+
 >    * Received warnings in console for 'Same-Site cookies'. Researched online and discussed with mentor. These are apparently server-side issues and beyond the scope of the project. To be dealt with once skills develop.
+>
 > * Navigation & Intro
 >   * Clicked on all navbar links to ensure smooth scrolling is consistent top to bottom, to each section and bottom to top.
 >   * Tested links from mobile view Hamburger menu icon, and menu closes when clicking on one of the menu items, as desired.
