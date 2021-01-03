@@ -179,7 +179,7 @@ strong {
     left: 0;
     z-index: 1;
     display: none;
-    background-color: rgb(114, 122, 172, 0.2);
+    background-color: rgb(114, 122, 172);
     width: 95%;
     padding: 0.5rem 0;
     border: 1px solid rgba(0, 0, 0, 0.15);
