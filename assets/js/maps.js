@@ -1,35 +1,3 @@
-// Function to hide and show location info with buttons
-const localityButton = document.getElementsByClassName("locality-button");
-    for (let i = 0; i < localityButton.length; i++) {
-    localityButton[i].addEventListener("click", handleLocalitySelect);
-}
-
-function handleLocalitySelect(e) {
-    const localityBtn = e.target.dataset.locality;
-    const localitySelection = document.getElementsByClassName("locality-section");
-    for (let i = 0; i < localitySelection.length; i++) {
-    const localityID = localitySelection[i].id;
-    if (localityID === localityBtn) {
-        localitySelection[i].classList.remove("hidden");
-    } else {
-        localitySelection[i].classList.add("hidden");
-    }
-}
-
-// Function to reset location info
-function handleLocalityReset(locality) {
-    const localityBtn = locality;
-    const localitySelection = document.getElementsByClassName("locality-section");
-    for (let i = 0; i < localitySelection.length; i++) {
-    const localityID = localitySelection[i].id;
-    if (localityID === localityBtn) {
-        localitySelection[i].classList.remove("hidden");
-    } else {
-        localitySelection[i].classList.add("hidden");
-    }
-    }
-}
-
 let mapTileLayers = L.tileLayer(
     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", 
     { attribution: "Powered by Esri" }
@@ -158,4 +126,4 @@ function changeMapLocation(location) {
     pin: [58.115, -5.13707],
     },
 ]
-}
+
