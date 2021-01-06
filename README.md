@@ -122,7 +122,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 ##### Existing Features
 
 > - The website was designed with HTML5, CSS3, JavaScript and Bootstrap.
-> - Home/Landing page with scrolling capability between the 4 sections contained within the site..
+> - Home/Landing page with scrolling capability between the 4 sections contained within the site.
 > - The fixed navigation bar enables the user to easily navigate between each of the 4 sections.
 > - The "About Scotland" section outlines the project objectives and provides the user with general information about Scotland.
 > - The "Locations" section with links and interactive maps which zoom to each location. Markers on maps with information panels on markers.
@@ -197,12 +197,12 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - [CSS-Tricks](https://css-tricks.com/) - General resource.
 > - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
 > - [CommonMark](https://commonmark.org/help/) - Markdown language reference.
-> - [iColorpalette](https://icolorpalette.com/imagepalette/color-palette-ideas-from-car-motor-vehicle-image-11) - Find relevant color palette for site.
-> - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site.
+> - [Coolors](https://coolors.co/ - Color palette generation site.
+> - [TinyPNG](https://tinypng.com/) - Compression of images for site.
 > - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
-> - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
+> - [Figma](https://www.figma.com/) - Wireframe design tool.
 > - [Bootstrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - An invaluable resource for understanding Grid layouts.
-> - [Tim Nelson's Github for LeafletJS](https://github.com/TravelTimN/ci-ifd-lead/tree/master/week4-leafletjs)
+> - [LeafletJS](https://leafletjs.com/reference-1.7.1.html) - Interactive API map documentation
 
 ---
 
