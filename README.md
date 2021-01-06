@@ -212,6 +212,10 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 ### Project barriers and solutions
 
+> - I encountered two barriers which slowed my overall progress to completion.
+> - Firstly, I found getting the locations dropdown buttons to link to their associated information paragraphs to be troublesome. Writing a suitable javascript function for this to be a challenge. With my mentors guidance and searcching for similar problems on Stack Overflow, I was eventually able to complete the required function to allow the buttons to work as desired.
+ - Secondly, I had some problems with coding the maps API sections of my project to allow the maps to display in the correct way and in the correct position. I was able to correct this by watchung a number of YouTube videos and by utilising the Leaflet.js documentation.
+
 ---
 
 ### Code Validity
@@ -234,7 +238,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 ### Deploying My Project 
 
-> I created my Milestone Project 1 on GitHub and used GitPod's development environment to write my HTML, CSS and Javascript code.
+> I created my Milestone Project 2 on GitHub and used GitPod's development environment to write my HTML, CSS and Javascript code.
 
 > All code was written on Gitpod. The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/sruss07/MS02_Photo_Scotland).
 
@@ -254,24 +258,13 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - Intro carousel images from [Unsplash](https://unsplash.com/) and [Pexels] (hhtps://pexels.com/)
 > - Scotland Map image from [Pintrest]()
 
-> ##### Content
->
-> - Tim Nelsons's extensive documentation on LeafletJS Maps from his MS2 project
->
-> ##### Bootstrap 4 CDN Boilerplate
->
-> - I've taken advantage of _Simen Daehlin's_ template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet)
 >
 > ##### Code Snippets
 >
-> - CSS: Main Country and Reserve Button styling adapted from [Button Generator](https://www.bestcssbuttongenerator.com/#/11*)
-> - Dropdown buttons adapted from [Bootstrap](https://getbootstrap.com/docs/4.0/components/dropdowns/)
+> - Button styling adapted from [Button Generator](https://www.bestcssbuttongenerator.com/#/11*)
 > - Navigation bar adapted from [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/)
 > - Smooth scrolling (using Jquery) from [W3SCHOOLS](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
-> - Tim Nelson - Showing only map tiles for Africa (avoid loading world map)
 > - HTML, CSS & JavaScript: Intro carousel & transition function from [CSS Tricks](https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/)
-> - JavaScript: find by location in array of objects [Stack Overflow](https://stackoverflow.com/a/35398031/13484385*/)
-> - iframe element 'stop on click' function help from John Traas (CI student) and final solution (due to stopVideo method no longer working on iframes) from [Stack Overflow](https://stackoverflow.com/a/30358006/14197670)
 
 ---
 
@@ -281,4 +274,3 @@ The website is targeted at photographers of all abilities. From professionals lo
 >
 > - My mentor, **Gerry McBride** for his guidance and advice on this project before submission.
 > - **CI staff** and **Slack Community** for always being on-hand with questions posted and assistance requests.
-> - Everyone that takes part in the Slack calls, specifically from the **#In-It-Together** and **#Study-Group** channels.
