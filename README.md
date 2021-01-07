@@ -208,7 +208,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 ### Testing
 
-> Testing documentation can be found on a separate document [HERE]
+> Testing documentation can be found on a separate document [HERE](https://github.com/sruss07/MS02_Photo_Scotland/blob/master/assets/docs/Testing.md)
 
 ### Project barriers and solutions
 
