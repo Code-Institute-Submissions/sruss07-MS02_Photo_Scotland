@@ -1,6 +1,6 @@
 // Function for smooth scrolling between nav links and sections
 $(document).ready(function () {
-    $("a").on("click", function (event) {
+    $("a, button").on("click", function (event) {
     if (this.hash !== "") {
         event.preventDefault();
         let hash = this.hash;
@@ -8,7 +8,7 @@ $(document).ready(function () {
         {
             scrollTop: $(hash).offset().top,
         },
-        800,
+        700,
         function () {
             window.location.hash = hash;
         }
@@ -41,6 +41,3 @@ window.onclick = function (e) {
     dropDown.classList.remove("show");
     }
 };
-
-
-

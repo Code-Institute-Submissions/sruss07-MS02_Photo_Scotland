@@ -98,7 +98,8 @@ section {
 
 .about-container,
 .locality-container,
-.contact-container {
+.contact-container,
+.info-container {
     background-color: var(--main-bg-opaque);
     padding: 16px;
     min-height: 70vh;
@@ -269,6 +270,7 @@ strong {
     width: 100%;
     z-index: 0;
     margin-left: 225px;
+    margin-bottom: 50px;
 }
 
 .locality-placeholder {
@@ -288,6 +290,10 @@ strong {
 .map-col {
     display: flex;
     justify-content: end;
+}
+
+.locality-section {
+    margin-top: 25px;
 }
 
 .locality-section a {
