@@ -1,4 +1,4 @@
-// Function for smooth scrolling between sections
+// Function for smooth scrolling between nav links and sections
 $(document).ready(function () {
     $("a").on("click", function (event) {
     if (this.hash !== "") {
@@ -42,13 +42,5 @@ window.onclick = function (e) {
     }
 };
 
-// Function to hide divs on button click
-$('btnicon').on('click', function(){
-    $('#tabicon,.form-group').show();
-    $('#tabimages').hide();
-});
 
-$('btnicon').on('click', function(){
-    $('#tabimages,.form-group').show();
-    $('#tabicon').hide();
-});
+
