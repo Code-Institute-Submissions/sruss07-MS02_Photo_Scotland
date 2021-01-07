@@ -66,7 +66,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 >
 > - The site  has been designed with the Mobile-first approach at the forefront.
 > - Interactive maps for each photography location with associated info panels.
-> - Contact form with an option to sign up for mailing list.
+> - Contact Us form with an option to sign up for mailing list.
 > - Relevant social media icons in the footer linking to external sites.
 > - Fixed navigation bar providing the site user easy, intuitive navigation links.
 
@@ -82,7 +82,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > Location details are presented in short and relevant paragraphs to provide users with the required level of information.
 > The site will utilise a set of high quality images to highlight each photography location.
 > Introduction information for Scotland including population, capital city, other cities, land area, highest point, number of islands and number of lochs.
-> Contact information is provided via email contact form with an optional newsletter subscription.
+> Contact Us information is provided via email contact form with an optional newsletter subscription.
 > Links to Facebook, Twitter, Instagram, YouTube and Pinterest social media websites in the fßooter.
 
 #### 4. Skeleton
@@ -90,7 +90,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - [Wireframes]: One-page website with **4** main sections.
 > - Fixed navigation bar with link headings pointing to each of the 4 section.
 > - Fixed navigation bar links headings collapse to menu icon on smaller screen sizes.
-> - Home, About Scotland, Locations and Contact sections
+> - Home, About Scotland, Locations and Contact Us sections
 > - Footer with social media icon links to Facebook, Twitter, Instagram, YouTube and Pinterest.
 
 #### 5. Surface
@@ -126,8 +126,9 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - The fixed navigation bar enables the user to easily navigate between each of the 4 sections.
 > - The "About Scotland" section outlines the project objectives and provides the user with general information about Scotland.
 > - The "Locations" section with links and interactive maps which zoom to each location. Markers on maps with information panels on markers.
+> - Contact Us Form with radio buttons to allow users to contact with enquiries and subscribe to newsletter.
 > - Footer with social media links to Facebook, Twitter, Instagram, YouTube and Pinterest.
-> - Contact Form with radio buttons to allow users to contact with enquiries and subscribe to newsletter.
+
 
 ##### Features Left to Implement
 
