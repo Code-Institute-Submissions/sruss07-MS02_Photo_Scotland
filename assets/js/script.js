@@ -41,3 +41,14 @@ window.onclick = function (e) {
     dropDown.classList.remove("show");
     }
 };
+
+// Function to hide divs on button click
+$('btnicon').on('click', function(){
+    $('#tabicon,.form-group').show();
+    $('#tabimages').hide();
+});
+
+$('btnicon').on('click', function(){
+    $('#tabimages,.form-group').show();
+    $('#tabicon').hide();
+});
