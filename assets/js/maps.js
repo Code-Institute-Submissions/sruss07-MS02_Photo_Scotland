@@ -1,47 +1,82 @@
-let mapTileLayers = L.tileLayer(
-    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", 
-    { attribution: "Powered by Esri" }
-    );
+// Set centre of map
+var map = L.map('map').setView([56.816922, -4.18265], 1);
 
-    let map = L.map("map", {
-    layers: [mapTileLayers], 
-    center: [57, -3], 
-    zoom: 5, 
-    minZoom: 3, 
-    });
+// Set map tile source
+L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=k1OwPjS7pSxiUZ6xGQso', {
+    attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
+}).addTo(map);
 
-// Settings for location maps
-// Change map location
-let pinMarker = {}; 
+// Set map marker locations with popups
+var marker1 = L.marker([56.083333, -4.566667], {
+    title: "Loch Lomond"
+}).addTo(map);
+marker1.bindPopup("<h2> Loch Lomond </h2>");
 
-function changeMapLocation(location) {
-    const newMapLocation = mapLocations.find(
-        (name) => name.location === location
-    );
 
-// Set map location, centre and zoom
-    map.flyTo(newMapLocation.center, newMapLocation.zoom);
-    if (newMapLocation.pin) {
-        map.removeLayer(pinMarker);
-        pinMarker = L.marker(newMapLocation.pin)
-        .addTo(map)
-        .bindPopup(
-            "<strong><h6>" +
-            newMapLocation.location +
-            "</h6></strong>" +
-            "<strong>" +
-            "<br>Latitude:      " +
-            "</strong>" +
-            newMapLocation.pin[0] +
-            "<strong>" +
-            "<br>Longitude:     " +
-            "</strong>" +
-            newMapLocation.pin[1]
-        );
-    } else {
-        map.removeLayer(pinMarker);
-    }
-}
+var marker2 = L.marker([56.0191, -3.7553], {
+    title: "The Kelpies"
+}).addTo(map);
+marker2.bindPopup("<h2> The Kelpies </h2>");
+
+
+var marker3 = L.marker([56.403611, -5.028889], {
+    title: "Kilchurn Castle"
+}).addTo(map);
+marker3.bindPopup("<h2> Kilchurn Castle </h2>");
+
+
+var marker4 = L.marker([56.0004, -3.3886], {
+    title: "The Forth Bridges"
+}).addTo(map);
+marker4.bindPopup("<h2> The Forth Bridges </h2>");
+
+
+var marker5 = L.marker([56.946, -2.197], {
+    title: "Dunnottar Castle"
+}).addTo(map);
+marker5.bindPopup("<h2> Dunnottar Castle </h2>");
+
+
+var marker6 = L.marker([56.647303, -4.897797], {
+    title: "Buchaille Etive Mor"
+}).addTo(map);
+marker6.bindPopup("<h2> Buchaille Etive Mor </h2>");
+
+
+var marker7 = L.marker([56.876285, -5.431914], {
+    title: "Glenfinnan Viaduct"
+}).addTo(map);
+marker7.bindPopup("<h2> Glenfinnan Viaduct </h2>");
+
+
+var marker8 = L.marker([57.706667, -2.850278], {
+    title: "Bow Fiddle Rock"
+}).addTo(map);
+marker8.bindPopup("<h2> Bow Fiddle Rock </h2>");
+
+
+var marker9 = L.marker([57.274028, -5.516111], {
+    title: "Eilean Donan Castle"
+}).addTo(map);
+marker9.bindPopup("<h2> Eilean Donan Castle </h2>");
+
+
+var marker10 = L.marker([57.200, -6.200], {
+    title: "The Cuillin"
+}).addTo(map);
+marker10.bindPopup("<h2> The Cuillin </h2>");
+
+
+var marker11 = L.marker([57.80653, -5.25166], {
+    title: "An Teallach"
+}).addTo(map);
+marker11.bindPopup("<h2> An Teallach </h2>");
+
+
+var marker12 = L.marker([58.115, -5.13707], {
+    title: "Suilven"
+}).addTo(map);
+marker12.bindPopup("<h2> Suilven </h2>");
 
 // Array for Scotland map
     const mapLocations = [
