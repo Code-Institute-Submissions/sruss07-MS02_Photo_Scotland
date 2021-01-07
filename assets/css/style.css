@@ -19,8 +19,6 @@
 
 /* --- Global Settings ---*/
 body {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -266,9 +264,10 @@ strong {
 }
 
 #map {
-    border: 2px solid red;
+    border: 2px solid #1550B5;
     height: 180px;
     width: 100%;
+    z-index: 0;
 }
 
 .locality-placeholder {
