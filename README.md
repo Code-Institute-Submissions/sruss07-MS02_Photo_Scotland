@@ -99,7 +99,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 >
 > The site colours have been chosen to represent colours which are commonly associated with Scotland. The dark blue from the saltire flag, the lighte blue from Scotland's numerous lochs, purple from the heather clad glens and silver from the granite mountains. 
 >
-> ![Image](assets/img/.png)
+> ![Image](assets/img/colour_palette.png)
 
 > ###### Typography
 >
