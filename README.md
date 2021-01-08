@@ -196,7 +196,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - [CSS-Tricks](https://css-tricks.com/) - General resource.
 > - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General resource.
 > - [CommonMark](https://commonmark.org/help/) - Markdown language reference.
-> - [Coolors](https://coolors.co/ - Color palette generation site.
+> - [Coolors](https://coolors.co/) - Color palette generation site.
 > - [TinyPNG](https://tinypng.com/) - Compression of images for site.
 > - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
 > - [Figma](https://www.figma.com/) - Wireframe design tool.
