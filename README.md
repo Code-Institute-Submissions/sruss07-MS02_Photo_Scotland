@@ -211,9 +211,9 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 ### Project barriers and solutions
 
-> - I encountered two barriers which slowed my overall progress to completion.
-> - Firstly, I found getting the locations dropdown buttons to link to their associated information paragraphs to be troublesome. Writing a suitable javascript function for this to be a challenge. With my mentors guidance and searcching for similar problems on Stack Overflow, I was eventually able to complete the required function to allow the buttons to work as desired.
- - Secondly, I had some problems with coding the maps API sections of my project to allow the maps to display in the correct way and in the correct position. I was able to correct this by watchung a number of YouTube videos and by utilising the Leaflet.js documentation.
+> - I encountered two barriers which slowed my overall progress, partly due to personal circumstances which affected the time I could devote to my project, and also due to my poor grasp of Javascript.
+> - Firstly, I found getting the locations dropdown buttons to link to their associated information paragraphs to be troublesome. Writing a suitable javascript function for this to be a challenge. Due to personal circumstances which led to time restrictions, I was not able to complete this functionality as I was planning to.
+ - Secondly, I had some problems with coding the maps API sections of my project to allow the maps to display in the correct way. The two things I wanted to implement were fixing the bounds of the map, and a zoom function to each marker. Again, due to the reason mentioned above I was unable to get the maps to behave exactly as I had planned.
 
 ---
 
@@ -255,7 +255,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > ##### Media
 >
 > - Intro carousel images from [Unsplash](https://unsplash.com/) and [Pexels] (hhtps://pexels.com/)
-> - Scotland Map image from [Pintrest]()
+> - Scotland Map image from [Wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_map_of_Scotland.svg/1200px-Flag_map_of_Scotland.svg.png)
 
 >
 > ##### Code Snippets
