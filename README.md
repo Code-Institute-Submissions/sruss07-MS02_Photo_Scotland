@@ -254,7 +254,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 > ##### Media
 >
-> - Intro carousel images from [Unsplash](https://unsplash.com/) and [Pexels](hhtps://pexels.com/)
+> - Intro carousel images from [Unsplash](https://unsplash.com/) and [Pexels](https://pexels.com/)
 > - Scotland Map image from [Wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_map_of_Scotland.svg/1200px-Flag_map_of_Scotland.svg.png)
 
 >
