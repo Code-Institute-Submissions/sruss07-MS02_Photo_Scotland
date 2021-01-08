@@ -1,6 +1,6 @@
 # Photo Scotland
 
-![Image](assets/img/readme-hero.png)
+![Image](assets/img/responsive_views.png)
 
 [LIVE SITE ON GITHUB PAGES](https://
 
@@ -22,8 +22,6 @@ The purpose of this project is to highlight a selection of the best landscape ph
 > - [Credits](#credits)
 > - [Acknowledgments](#acknowledgments)
 > - [Support](#support)
-
-![Image](assets/img/responsive.png)
 
 **Please note: To open any links in this document in a new browser tab, please press `CTRL + Click`.**
 
@@ -250,7 +248,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > 3. Selected 'master branch' as the Source.
 > 4. This deployed the project on GitHub Pages and thus enabled me to share the live website with others. 
 
-> My live project can be viewed by folowing this link: [Photo Scotland]()
+> My live project can be viewed by folowing this link: [Photo Scotland]( https://sruss07.github.io/MS02_Photo_Scotland/.)
 
 ### Credits
 
