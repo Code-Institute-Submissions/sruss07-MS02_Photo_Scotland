@@ -85,7 +85,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 
 #### 4. Skeleton
 
-> - [Wireframes]: One-page website with **4** main sections.
+> - [Wireframes](assets/docs/Photo Scotland.pdf): One-page website with **4** main sections.
 > - Fixed navigation bar with link headings pointing to each of the 4 section.
 > - Fixed navigation bar links headings collapse to menu icon on smaller screen sizes.
 > - Home, About Scotland, Locations and Contact Us sections
