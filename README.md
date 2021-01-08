@@ -2,7 +2,7 @@
 
 ![Image](assets/img/responsive_views.png)
 
-[LIVE SITE ON GITHUB PAGES](https://
+[LIVE SITE ON GITHUB PAGES](https://sruss07.github.io/MS02_Photo_Scotland/
 
 The purpose of this project is to highlight a selection of the best landscape photography locations in Scotland. The project can be scaled in the future by adding more locations and associated viewpoints.
 
