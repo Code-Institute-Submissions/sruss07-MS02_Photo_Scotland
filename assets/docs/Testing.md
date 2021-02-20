@@ -1,7 +1,23 @@
+> ### Testing User Stories
+
+> These following tests were conducted to test the experience of each user outlined within the User Stories section of my README file [README.md] (https://github.com/sruss07/MS02_Photo_Scotland/blob/master/README.md)
+>
+>  * Users performing searches on mobiles and tablets
+>    * Users, on entering the page, will be greeted by a navbar which contains the page title at the top left, a hamburger icon menu at the top right, with an animated photo carousel below.
+>    * Users may scroll down the entire page for an initial viewing of the page. 
+>    * Users would select the hamburger icon menu to open and view the links within this menu.
+>    * The first link users would select would be the 'About Scotland' link. The page would scroll to the 'About Scotland' section, where users would learn about the purpose of the page and relevant facts and figures about Scotland.
+>    * The second link users would select would be the 'Locations' link. The page would scroll to the 'Locations' section. Here, users would encounter the 'Select a Location' pull down menu button and a map containing pins located at each photography location.
+>    * Users can then select the 'Select a Location' pull down menu button and select their desired location. Information on the selected location would then become visible to the user. 
+>    * Links to Wikipedia articles for each location are also available for users to select below each location information section.
+>    * When selected, the location pins on the map display the name of each pinned location. 
+>    * The third link users would select would be the 'Contact Us' link. The page would scroll to the 'Contact Us' form. This form  would allow users to send enquiries about the page, locations and any trips that may be available. The form also has an option that allows the user to join the pages mailing list.
+>    * Finally, fixed to the bottom of the page is the footer section. Contained within the footer are the pages social media links. In the future these social media sites will contain more location information, trip information, reviews and photo galleries.
+
 > ### HTML
 >
->   * Ran HTML code through [HTML Validator](https://validator.w3.org/) 
->   * Received error messages for no p element in scope but a p end tag seen. Error does not seem to cause any visible issues.
+>  * Ran HTML code through [HTML Validator](https://validator.w3.org/) 
+>  * Received error messages for no p element in scope but a p end tag seen. Error does not seem to cause any visible issues.
 >
 > ### CSS
 > * Ran CSS code through [CSS Validator](https://jigsaw.w3.org/css-validator/)
