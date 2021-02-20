@@ -33,15 +33,15 @@ The purpose of this project is to highlight a selection of the best landscape ph
 
 #### User Stories
 
-> - _"I do all my online searches on my mobile"_
-> - _"I do all my online searches on my tablet"_
 > - _"I do all my online searches on my laptop or desktop"_
+> - _"I do all my online searches on my mobile or tablet"_
 > - _"I want to know where are the best locations for landscape photography"_
-> - _"I want to be able to join a mailing list about new locations"_
 > - _"I want to make contact to ask questions about locations"_
-> - _"I want to be able to join social media groups to communicate with others"_
+> - _"I want to be able to join a mailing list about new locations"_
 > - _"I am interested in booking a trip and would like more information"_
 > - _"I am interested in reading reviews before booking a trip"_
+> - _"I want to be able to join social media groups to communicate with others"_
+
 
 ---
 
@@ -135,6 +135,7 @@ The website is targeted at photographers of all abilities. From professionals lo
 > - With further coding knowledge I would like to be able to add a trip booking system to the site.
 > - Scale the site further by adding additional locations.
 > - Scale the site further by adding multiple viewpoints at each location.
+> - Scale the site further by adding fully functioning social media sites linked to the footer icons, containing additional information, reviews and photographs.
 
 ---
 
