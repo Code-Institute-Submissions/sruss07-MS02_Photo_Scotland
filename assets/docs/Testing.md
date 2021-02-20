@@ -1,18 +1,46 @@
 > ### Testing User Stories
-
-> These following tests were conducted to test the experience of each user outlined within the User Stories section of my README file [README.md] (https://github.com/sruss07/MS02_Photo_Scotland/blob/master/README.md)
 >
->  * Users performing searches on mobiles and tablets
->    * Users, on entering the page, will be greeted by a navbar which contains the page title at the top left, a hamburger icon menu at the top right, with an animated photo carousel below.
->    * Users may scroll down the entire page for an initial viewing of the page. 
->    * Users would select the hamburger icon menu to open and view the links within this menu.
->    * The first link users would select would be the 'About Scotland' link. The page would scroll to the 'About Scotland' section, where users would learn about the purpose of the page and relevant facts and figures about Scotland.
->    * The second link users would select would be the 'Locations' link. The page would scroll to the 'Locations' section. Here, users would encounter the 'Select a Location' pull down menu button and a map containing pins located at each photography location.
+> The following was conducted to test the experience of each user outlined within the User Stories section of my README file [README.md] (https://github.com/sruss07/MS02_Photo_Scotland/blob/master/README.md)
+>
+>  * "I do all my online searches on my laptop or desktop". Users visiting the site on laptops or desktops would likely navigate the site following the steps outlined below:
+>    * Users, on entering the page, are greeted by a navbar which contains the page title at the top left, four navigation links at the top right, with an animated photo carousel below.
+>    * The first link users select would be the 'About Scotland' link. The page would scroll to the 'About Scotland' section, where users would learn about the purpose of the page and relevant facts and figures about Scotland.
+>    * The second link users select would be the 'Locations' link. The page would scroll to the 'Locations' section. Here, users would encounter the 'Select a Location' pull down menu button and a map containing pins located at each photography location.
 >    * Users can then select the 'Select a Location' pull down menu button and select their desired location. Information on the selected location would then become visible to the user. 
 >    * Links to Wikipedia articles for each location are also available for users to select below each location information section.
 >    * When selected, the location pins on the map display the name of each pinned location. 
->    * The third link users would select would be the 'Contact Us' link. The page would scroll to the 'Contact Us' form. This form  would allow users to send enquiries about the page, locations and any trips that may be available. The form also has an option that allows the user to join the pages mailing list.
+>    * The third link users select would be the 'Contact Us' link. The page would scroll to the 'Contact Us' form. This form  would allow users to send enquiries about the page, locations and any trips that may be available. The form also has an option that allows the user to join the pages mailing list.
 >    * Finally, fixed to the bottom of the page is the footer section. Contained within the footer are the pages social media links. In the future these social media sites will contain more location information, trip information, reviews and photo galleries.
+>
+>  * "I do all my online searches on my mobile or tablet". Users visiting the site on mobiles and tablets would encounter the following differences from the page flow above:
+>    * Users, on entering the page, are greeted by a navbar which contains the page title at the top left, a hamburger icon menu at the top right, with an animated photo carousel below.
+>    * Users would select the hamburger icon menu to open a pull down menu which contains the links. The links appear differently in this menu, from top to bottom as 'Home', 'About Scotland', 'Locations' and 'Contact Us'.
+>
+>  * "I want to know where are the best locations for landscape photography". Users who are searching for information about photography locations and seeking further information about those locations:
+>    * Users, on entering the page, navigate directly to the locations section by selecting the 'Locations' link in the navbar.
+>    * Users select the location they are interested in from the drop down list and will likely navigate to the Wikipedia entry for more information.
+>    * Users navigate to the 'Contact Us' form to seek further information about existing locations, new locations and trip availability.
+>    * Users likely be interested in further information which will be found on the page social media sites located in the footer.
+>
+>  * "I want to make contact to ask questions about locations". Users who would like to contact the site with questions about locations.
+>    * Users, on entering the page, navigate directly to the contact section by selecting the 'Contact Us' link in the navbar.
+>    * Users complete the contact form with their details and questions and send request for information.
+>
+>  * "I want to be able to join a mailing list about new locations". Users who would like to be kept up to date about new locations which have been added to the site.
+>    * Users, on entering the page, navigate directly to the contact section by selecting the 'Contact Us' link in the navbar.
+>    * Users complete the contact form with their details and choose to sign up to the mailing list.
+>
+>  * "I am interested in booking a trip and would like more information". Users who are interested in visiting a photography location.
+>    * Users, on entering the page, navigate directly to the contact section by selecting the 'Contact Us' link in the navbar.
+>    * Users complete the contact form with their details and include their trip question in the correct section of the form.
+>    * Users likely be interested in further trip information which will be found on the page social media sites located in the footer.
+>
+>  * "I am interested in reading reviews before booking a trip". Users who trust other photographers opinions on the photography sites and trips.
+>    * Users, on entering the page, navigate directly to the footer section where they can click the social media links to find reviews.
+>
+>  * "I want to be able to join social media groups to communicate with others". Users who regularly use social media sites such as Facebook, Twitter and Instagram.
+>    * Users, on entering the page, navigate directly to the footer section where they can click the social media links.
+>    * Once in the relevant social media sites, users can join or subscribe to discover more about the various photography locations and communicate with fellow users.
 
 > ### HTML
 >
