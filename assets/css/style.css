@@ -292,6 +292,10 @@ strong {
     justify-content: end;
 }
 
+.locality-padding {
+    padding-top: 70px;
+}
+
 .locality-section {
     margin-top: 25px;
 }
