@@ -1,6 +1,8 @@
 > ### Testing User Stories
 >
-> The following was conducted to test the experience of each user outlined within the User Stories section of my README file [README.md] (https://github.com/sruss07/MS02_Photo_Scotland/blob/master/README.md)
+> The following was conducted to test the experience of each user outlined within the User Stories section of my README file [README.md] (https://github.com/sruss07/MS02_Photo_Scotland/blob/master/README.md). 
+>
+> I tested each user story by firstly considering the likely path that each user would traverse when visiting the site, from initial interaction, through each subsequent step, to finally leaving the site. The paths through the site for each users would, I believe, result in a positive overall user experience in all situations.
 >
 >  * "I do all my online searches on my laptop or desktop". Users visiting the site on laptops or desktops would likely navigate the site following the steps outlined below:
 >    * Users, on entering the page, are greeted by a navbar which contains the page title at the top left, four navigation links at the top right, with an animated photo carousel below.
