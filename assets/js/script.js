@@ -1,7 +1,7 @@
 // Function for smooth scrolling between nav links and sections
 $(document).ready(function () {
     $("a, button").on("click", function (event) {
-    if (this.hash !== "") {
+    if (this.hash !== "" && this.hash != null) {
         event.preventDefault();
         let hash = this.hash;
         $("html, body").animate(
@@ -41,3 +41,5 @@ window.onclick = function (e) {
     dropDown.classList.remove("show");
     }
 };
+
+
