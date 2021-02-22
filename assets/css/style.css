@@ -269,8 +269,8 @@ strong {
     height: 180px;
     width: 100%;
     z-index: 0;
-    margin-left: 225px;
     margin-bottom: 50px;
+    align-content: center;
 }
 
 .locality-placeholder {
@@ -394,6 +394,7 @@ footer {
     .locality-placeholder img {
         height: 300px;
         width: 300px;
+        align-content: center;
     }
 }
 
@@ -437,6 +438,7 @@ footer {
     .locality-placeholder img {
         height: 400px;
         width: 400px;
+        margin-left: 150px;
     }
     .img-contain img {
         margin-right: auto;
