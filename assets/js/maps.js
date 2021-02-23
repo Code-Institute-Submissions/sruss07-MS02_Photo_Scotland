@@ -87,7 +87,6 @@ var marker12 = L.marker([58.115, -5.13707], {
 marker12.bindPopup("<h6> Suilven </h6>");
 
 
-
 // Array for Scotland map
     const mapLocations = [
     {
