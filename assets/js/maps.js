@@ -3,8 +3,16 @@ var map = L.map('map').setView([56.816922, -4.18265], 5.5)
 
 // Set map tile source
 L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=k1OwPjS7pSxiUZ6xGQso', {
+    maxZoom: 18,
     attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
+    tileSize: 512,
+        zoomOffset: -1
 }).addTo(map);
+
+// Set bounds of map
+var northWest = L.latLng(59.400, -8.430),
+    southEast = L.latLng(54.550, -0.450),
+    bounds = L.latLngBounds(northWest, southEast);
 
 // Set map marker locations with popups
 var marker1 = L.marker([56.083333, -4.566667], {
@@ -77,6 +85,8 @@ var marker12 = L.marker([58.115, -5.13707], {
     title: "Suilven"
 }).addTo(map);
 marker12.bindPopup("<h6> Suilven </h6>");
+
+
 
 // Array for Scotland map
     const mapLocations = [
