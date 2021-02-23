@@ -402,11 +402,16 @@ footer {
     .locality-placeholder img {
         height: 300px;
         width: 300px;
-        align-content: center;
+        margin: 0 auto 0 auto;
     }
 }
 
 @media only screen and (min-width: 768px) {
+    #map {
+        height: 350px;
+        width: 350px;
+    }
+
     .btn-container {
         margin-bottom: 45px;
     }
@@ -446,7 +451,7 @@ footer {
     .locality-placeholder img {
         height: 400px;
         width: 400px;
-        margin-left: 150px;
+        margin-left: 200px;
     }
     .img-contain img {
         margin-right: auto;
