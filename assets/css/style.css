@@ -297,7 +297,7 @@ strong {
 }
 
 .locality-padding {
-    padding-top: 70px;
+    padding-top: 85px;
 }
 
 .locality-section {
@@ -402,7 +402,6 @@ footer {
     .locality-placeholder img {
         height: 300px;
         width: 300px;
-        margin: 0 auto 0 auto;
     }
 }
 
@@ -451,7 +450,6 @@ footer {
     .locality-placeholder img {
         height: 400px;
         width: 400px;
-        margin-left: 200px;
     }
     .img-contain img {
         margin-right: auto;
