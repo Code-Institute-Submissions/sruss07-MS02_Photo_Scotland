@@ -47,7 +47,8 @@
 > ### HTML
 >
 >  * Ran HTML code through [HTML Validator](https://validator.w3.org/) 
->  * Received error messages for no p element in scope but a p end tag seen. Error does not seem to cause any visible issues.
+>  * Error: The element **button** must not appear as a descendant of the **a** element. I fixed this error by removing the **button** element and replacing with a **span** element.
+>  *  Error: Bad value **button** for attribute **type** on element **a**: Subtype missing. I fixed this error by changing the attribute **type** to **role**.
 >
 > ### CSS
 > * Ran CSS code through [CSS Validator](https://jigsaw.w3.org/css-validator/)
