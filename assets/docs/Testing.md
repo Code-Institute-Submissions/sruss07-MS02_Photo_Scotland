@@ -49,6 +49,7 @@
 >  * Ran HTML code through [HTML Validator](https://validator.w3.org/) 
 >  * Error: The element **button** must not appear as a descendant of the **a** element. I fixed this error by removing the **button** element and replacing with a **span** element.
 >  *  Error: Bad value **button** for attribute **type** on element **a**: Subtype missing. I fixed this error by changing the attribute **type** to **role**.
+>  *  Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. This warning presents no adverse problems to the page. As it is a warning and not an error I took the decision to proceed without correcting. 
 >
 > ### CSS
 > * Ran CSS code through [CSS Validator](https://jigsaw.w3.org/css-validator/)
